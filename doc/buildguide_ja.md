@@ -129,14 +129,6 @@ PCBとスイッチプレートの間にスイッチ用のフォームを挟み�
 
 ![Install Switches 001](images/install-switches001.jpg)
 
-また失敗してスイッチの足が曲がってしまった場合は、ペンチ等でまっすぐにして入れ直します。
-
-14.写真(スイッチ、足曲がり)
-
-![Switches Caution 001](images/switch-caution001.jpg)
-
-![Switches Caution 002](images/switch-caution002.jpg)
-
 ![Install Switches 002](images/install-switches002.jpg)
 
 また、はんだ付け版の基板の場合はここではんだ付けも行います。
