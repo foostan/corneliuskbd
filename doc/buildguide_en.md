@@ -56,7 +56,9 @@ Additionally, some of them have been handled for us before shipment.
 ### How to deal it
 
 The following areas are prone to interference.
-To solve the problem, please check the interfering parts and remove about 0.1mm-0.2mm with a file.
+Please check the interfering parts and remove about 0.1mm-0.2mm with a file to solve the problem.
+The degree of shaving varies depending on the individual unit, so please check each time while working to avoid over-shaving.
+I apologize for any inconvenience this may cause.
 
 __When the top body and bottom body interfere with each other__
 
