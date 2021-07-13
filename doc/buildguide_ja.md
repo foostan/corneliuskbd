@@ -1,40 +1,84 @@
 # ビルドガイド
+
 ## パッケージ内容の確認
 箱を開けたらまずは内容物が全て入っているか確認してください。
+
+![Package 001](images/package001.jpg)
+
+![Package 002](images/package002.jpg)
 
 __キーボードケース本体__
 
 予め予備のネジで上下のボディがネジ止めされています。
 ネジを外して中をご確認してください。
 
-1.写真(ケース本体)
+![Package Body 001](images/package-body001.jpg)
 
 ケースの内部など、組み立てたときに表から見えない部分については多少の傷や塗装が十分にされていない場合があります。
 これは多くの場合、製造工程の都合で防ぐことが困難なものですので、ご理解いただけると助かります。
+またE-Whiteケースと各パーツのクリアランスと対処方法については下記をご参照ください。
 
-2.写真(ケース本体内部、傷)
+![Package Body 002](images/package-body002.jpg)
 
 __PCB__
 
-3.写真(PCB)
+![Package PCB](images/package-pcb.jpg)
 
 __スイッチプレート__
 
 ご自身の選んだものが入っていることをご確認ください。
 
-4.写真(プレート各種)
+![Package Plates](images/package-plates.jpg)
 
 __フォーム__
 
-5.写真(フォーム各種)
+![Package Foam](images/package-foam.jpg)
 
 __ガスケットフォーム__
 
-6.写真(ガスケットフォーム)
+![Package Gasket](images/package-gasket.jpg)
 
 __ネジ類__
 
-7.写真(ネジ他)
+![Package Screws](images/package-screws.jpg)
+
+## E-Whiteケースと各パーツのクリアランスと対処方法について
+
+E-Whiteについて、GBの製造段階で品質向上のためコーティング工程に一部変更がありました。
+これにより表面の質感や白の色味が大幅に改善されました。
+
+しかしこれによって従来よりも塗装面が厚くなり一部パーツのクリアランス不足が発生しております。
+具体的には、トップボディとボトムボディ、トップボディとスイッチプレートにおいて、各パーツの削り出し精度の組み合わせによって干渉を起こす場合があります。
+ケースの内側であるという点、キーボードの性能上の問題はないという点でこのままの出荷となったことをご理解いただけますと幸いです。
+
+干渉について気になる方、組み立てが困難な場合は下記対処方法をご参照ください。
+また組立前にご確認/対処して頂ければと思います。
+なお出荷の段階でこちらで対処したものも含まれています。
+
+### 対処方法
+
+下記に示す部分が干渉を起こしやすい箇所になります。
+それぞれ干渉する箇所をご確認頂き0.1mm~0.2mm程削って頂くと解決します。
+
+__トップボディとボトムボディが干渉する場合__
+
+![Annotation Bottom body 001](images/annotation-bottom-body001.png)
+
+![Annotation Bottom body 002](images/annotation-bottom-body002.png)
+
+![Annotation Top body 003](images/annotation-top-body003.png)
+
+![Annotation Top body 004](images/annotation-top-body004.png)
+
+__トップボディとプレートが干渉する場合__
+
+![Annotation Plate 001](images/annotation-plate001.png)
+
+![Annotation Plate 002](images/annotation-plate002.png)
+
+![Annotation Top body 001](images/annotation-top-body001.png)
+
+![Annotation Top body 001](images/annotation-top-body002.png)
 
 ## PCBの動作確認
 
@@ -55,35 +99,45 @@ __RemapのTest Matrixによる確認__
 ボトムボディおよびトップボディの該当位置にそれぞれガスケットフォームを取り付けます。
 なおケースではなくスイッチプレートに取り付けても問題ありません。
 
-8.写真(ガスケット取り付け)
+![Install Gasket](images/install-gasket001.jpg)
 
 なおガスケットフォームを取り外すときはフォームを破らないようにお気を付けください。
 またガスケットフォームの片面には粘着テープが付いています。剥がし方によって粘着面がフィルム側に残ってしまう場合があるのピンセットで丁寧に取ることをおすすめします。
 
-9.写真(ガスケット剥がし)
+![Install Gasket](images/install-gasket002.jpg)
+
+![Install Gasket](images/install-gasket003.jpg)
 
 ## スイッチの取り付け
 
 ポリカーボネートプレートの場合は、両面に保護フィルムが付いているので丁寧に剥がします。
 
-10.写真(ポリカプレート、保護フィルム)
+![Polycarbonate plate Peel films off](images/polycarbonate-plate-peel-films-off.jpg)
 
 ポリカーボネートプレートは光沢面と半光沢面があります。プレートは裏表同じなのでお好きな方を表にしてお使いください。
 
-11.写真(ポリカプレート、両面、光沢、半光沢)
+![Polycarbonate plate Glossy](images/polycarbonate-plate-glossy.jpg)
+
+![Polycarbonate plate Semi-Glossy](images/polycarbonate-plate-semi-glossy.jpg)
 
 PCBとスイッチプレートの間にスイッチ用のフォームを挟み込み、スイッチを付けていきます。
 
-12.写真(PCB、フォーム、プレートの重ね)
+![Install Middle foam](images/install-middle-foam.jpg)
 
 スイッチを取り付けるときはまっすぐに上から押し付けるようにして付けます。
 写真のようにPCBを平らな場所に置き、真上から押し込むと入れやすいです。
 
-13.写真(スイッチ押し込み説明)
+![Install Switches 001](images/install-switches001.jpg)
 
 また失敗してスイッチの足が曲がってしまった場合は、ペンチ等でまっすぐにして入れ直します。
 
 14.写真(スイッチ、足曲がり)
+
+![Switches Caution 001](images/switch-caution001.jpg)
+
+![Switches Caution 002](images/switch-caution002.jpg)
+
+![Install Switches 002](images/install-switches002.jpg)
 
 また、はんだ付け版の基板の場合はここではんだ付けも行います。
 
@@ -92,28 +146,23 @@ PCBとスイッチプレートの間にスイッチ用のフォームを挟み�
 ボトムボディに付いているウェイトは、最初は銀色のネジで付けられています。
 お好みに応じて黒色のネジに変更ができます。
 
-15.写真(ウェイトネジ交換)
+![Change black screws](images/change-black-screws.jpg)
 
 ボトムボディの底にボトム用のフォームを敷き、その上からPCBを乗せます。
 
-16.写真(フォーム敷き)
-17.写真(PCB置き)
+![Install a bottom foam](images/install-bottom-foam.jpg)
 
-トップボディを上からまっすぐに取り付けます。
-各パーツの削り出しの組み合わせによってはプレートがトップボティに干渉するものが存在します。
-検品の段階でつけることが可能であることは確認済みですが、もし気になる方はプレート側を0.1mm-0.2mm程削ることをご検討ください。
+![Build a case 001](images/build-case001.jpg)
 
-18.写真(トップボディ取り付け)
-
-トップボディがはずれないように手で押さえつつ、裏からネジを付けていきます。
+トップボディを上からまっすぐに取り付け、裏からネジを付けていきます。
 トップボディとボトムボディの組み合わせに関してはすこしきついものが存在します。
 
-19.写真(ネジ止め)
+![Build a case 002](images/build-case002.jpg)
 
 クッションゴムを付けます。
 
-20.写真(クッションゴム)
+![Install cushion rubbers](images/install-cushion-rubbers.jpg)
 
 最後にキーキャップを取り付けて完成です。
 
-21.写真(完成)
+![Finished](images/finished.jpg)
