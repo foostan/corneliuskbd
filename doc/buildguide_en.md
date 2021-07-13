@@ -29,11 +29,11 @@ Please make sure the one you have chosen is included.
 
 ![Package Plates](images/package-plates.jpg)
 
-__Form__
+__Foam__
 
 ![Package Foam](images/package-foam.jpg)
 
-__Gasket form__
+__Gasket foam__
 
 ![Package Gasket](images/package-gasket.jpg)
 
@@ -120,7 +120,7 @@ The polycarbonate plate has a glossy side and a semi-glossy side. The two sides 
 
 ![Polycarbonate plate Semi-Glossy](images/polycarbonate-plate-semi-glossy.jpg)
 
-Insert the switch form between the PCB and the switch plate, and then attach the switch.
+Insert the switch foam between the PCB and the switch plate, and then attach the switch.
 
 ![Install Middle foam](images/install-middle-foam.jpg)
 
