@@ -26,7 +26,7 @@ __PCB__
 
 __スイッチプレート__
 
-ご自身の選んだものが入っていることをご確認ください。
+ご自身の選んだものが入っていることをご確認してください。
 
 ![Package Plates](images/package-plates.jpg)
 
@@ -42,7 +42,7 @@ __ネジ類__
 
 ![Package Screws](images/package-screws.jpg)
 
-## E-Whiteケースと各パーツのクリアランスと対処方法について
+## E-Whiteケースと各パーツのクリアランスについて
 
 E-Whiteについて、GBの製造段階で品質向上のためコーティング工程に一部変更がありました。
 これにより表面の質感や白の色味が大幅に改善されました。
@@ -51,40 +51,13 @@ E-Whiteについて、GBの製造段階で品質向上のためコーティン�
 具体的には、トップボディとボトムボディ、トップボディとスイッチプレートにおいて、各パーツの削り出し精度の組み合わせによって干渉を起こす場合があります。
 ケースの内側であるという点、キーボードの性能上の問題はないという点でこのままの出荷となったことをご理解いただけますと幸いです。
 
-干渉について気になる方、組み立てが困難な場合は下記対処方法をご参照ください。
+干渉について気になる方、組み立てが困難な場合は[下記対処方法](#E-Whiteケースと各パーツのクリアランスに関する対処方法)をご参照ください。
 また組立前にご確認/対処して頂ければと思います。
 なお出荷の段階でこちらで対処したものも含まれています。
 
-### 対処方法
-
-下記に示す部分が干渉を起こしやすい箇所になります。
-それぞれ干渉する箇所をご確認頂き、ヤスリ等で0.1mm~0.2mm程削って頂くと解決します。
-個体によって削る程度が異なりますので削り過ぎないよう都度確認しながら作業して頂ければと思います。
-お手数おかけして申し訳ございません、よろしくお願いします。
-
-__トップボディとボトムボディが干渉する場合__
-
-![Annotation Bottom body 001](images/annotation-bottom-body001.png)
-
-![Annotation Bottom body 002](images/annotation-bottom-body002.png)
-
-![Annotation Top body 003](images/annotation-top-body003.png)
-
-![Annotation Top body 004](images/annotation-top-body004.png)
-
-__トップボディとプレートが干渉する場合__
-
-![Annotation Plate 001](images/annotation-plate001.png)
-
-![Annotation Plate 002](images/annotation-plate002.png)
-
-![Annotation Top body 001](images/annotation-top-body001.png)
-
-![Annotation Top body 001](images/annotation-top-body002.png)
-
 ## PCBの動作確認
 
-組み立てを始める前にPCBが正常に動作することをご確認ください。
+組み立てを始める前にPCBが正常に動作することをご確認してください。
 
 既にVIA対応のファームウェアが書き込まれた状態なので、動作確認には [VIA](https://caniusevia.com/) もしくは [Remap](https://remap-keys.app/) を利用することをおすすめします。
 
@@ -149,7 +122,6 @@ PCBとスイッチプレートの間にスイッチ用のフォームを挟み�
 ![Build a case 001](images/build-case001.jpg)
 
 トップボディを上からまっすぐに取り付け、裏からネジを付けていきます。
-トップボディとボトムボディの組み合わせに関してはすこしきついものが存在します。
 
 ![Build a case 002](images/build-case002.jpg)
 
@@ -160,3 +132,59 @@ PCBとスイッチプレートの間にスイッチ用のフォームを挟み�
 最後にキーキャップを取り付けて完成です。
 
 ![Finished](images/finished.jpg)
+
+## E-Whiteケースと各パーツのクリアランスに関する対処方法
+
+トップボディとボトムボディが干渉する場合とトップボディとプレートが干渉する場合の対処方法をそれぞれ順を追って説明します。
+
+なお指定箇所を紙ヤスリ等で0.1mm~0.2mm程削って頂く必要があります。なお掲載する対処の例ではJIS規格の#240の紙ヤスリを使用しました。
+あまり目の荒いヤスリを使用すると本体を大きく傷つけてしまう恐れがあるので#240~#400番の中目から細目の紙ヤスリを使用すると安心です。
+
+個体によって削る程度が異なりますので削り過ぎないよう都度確認しながら作業して頂ければと思います。
+お手数おかけして申し訳ございません、よろしくお願いします。
+
+### トップボディとボトムボディが干渉する場合
+
+トップボディとボトムボディを開け閉めで少し抵抗がある程度であれば問題ありませんが、きつく感じる場合はまずはボトムボディの下記の場所を軽く削ってください。
+個体差にもよりますが、下記写真をご参考にしてください。
+
+![Annotation Bottom body 001](images/annotation-bottom-body001.png)
+
+![Annotation Bottom body 002](images/annotation-bottom-body002.png)
+
+![Fix Bottom body 001](images/fix-bottom-body001.jpg)
+
+![Fix Bottom body 002](images/fix-bottom-body002.jpg)
+
+ボトムボディ側の対応で解決しない場合、トップボディの下記の場所を軽く削って下さい。
+ただしこちらに関しては削るのが難しい箇所となりますので、こちらを削ることはあまりおすすめしません。
+
+![Annotation Top body 003](images/annotation-top-body003.png)
+
+![Annotation Top body 004](images/annotation-top-body004.png)
+
+
+### トップボディプレートが干渉する場合
+
+まずはどの程度干渉するかご確認してください。
+ガスケットマウントという特性上、抵抗を感じる程度干渉している場合打鍵感に影響します。
+
+![Fix Plage 001](images/fix-plate001.jpg)
+
+抵抗を感じる場合はまずはプレートの下記の場所を軽く削って下さい。
+個体差にもよりますが、下記写真をご参考にしてください。
+
+![Annotation Plate 001](images/annotation-plate001.png)
+
+![Annotation Plate 002](images/annotation-plate002.png)
+
+![Fix Plate 001](images/fix-plate002.jpg)
+
+
+プレート側の対応で解決しない場合、トップボディの下記の場所を軽く削って下さい。
+ただしこちらに関しては削るのが難しい箇所となりますので、こちらを削ることはあまりおすすめしません。
+
+![Annotation Top body 001](images/annotation-top-body001.png)
+
+![Annotation Top body 001](images/annotation-top-body002.png)
+

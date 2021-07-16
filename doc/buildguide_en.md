@@ -15,7 +15,7 @@ Please remove the screws and check the inside.
 
 The inside of the case and other parts that are not visible from the front when assembled may have some scratches or may not be painted sufficiently.
 In most cases, this is difficult to prevent due to the manufacturing process, so we appreciate your understanding.
-Also, please refer to the following for the clearance between the E-White case and each part and how to deal with it.
+Also, please refer to the following for the clearance between the E-White case and each part and how to fix with it.
 
 ![Package Body 002](images/package-body002.jpg)
 
@@ -41,7 +41,7 @@ __Screws etc.__
 
 ![Package Screws](images/package-screws.jpg)
 
-## The clearance between the E-White case and each part and how to deal with it
+## The clearance between the E-White case and each part
 
 For E-White, some changes were made to the coating process at the GB manufacturing stage to improve quality.
 As a result, the surface texture and the white color have been greatly improved.
@@ -49,36 +49,9 @@ As a result, the surface texture and the white color have been greatly improved.
 However, this has resulted in a thicker coating surface than before, which has caused a lack of clearance for some parts.
 Specifically, interference may occur between the top body and bottom body, and between the top body and switch plate, depending on the combination of the machining accuracy of each part.
 
-If you are concerned about interference, or if an assembly is difficult, please refer to the following solutions.
+If you are concerned about interference, or if an assembly is difficult, please refer to [the following solutions](#how-to-fix-the-clearance-between-the-e-white-case-and-each-part).
 Please check and deal with them before assembly.
 Additionally, some of them have been handled for us before shipment.
-
-### How to deal it
-
-The following areas are prone to interference.
-Please check the interfering parts and remove about 0.1mm-0.2mm with a file to solve the problem.
-The degree of shaving varies depending on the individual unit, so please check each time while working to avoid over-shaving.
-I apologize for any inconvenience this may cause.
-
-__When the top body and bottom body interfere with each other__
-
-![Annotation Bottom body 001](images/annotation-bottom-body001.png)
-
-![Annotation Bottom body 002](images/annotation-bottom-body002.png)
-
-![Annotation Top body 003](images/annotation-top-body003.png)
-
-![Annotation Top body 004](images/annotation-top-body004.png)
-
-__When the top body and plate interfere with each other__
-
-![Annotation Plate 001](images/annotation-plate001.png)
-
-![Annotation Plate 002](images/annotation-plate002.png)
-
-![Annotation Top body 001](images/annotation-top-body001.png)
-
-![Annotation Top body 001](images/annotation-top-body002.png)
 
 ## Check PCB operation
 
@@ -147,7 +120,6 @@ Put the bottom foam on the bottom of the bottom body, and put the PCB on top of 
 ![Build a case 001](images/build-case001.jpg)
 
 Install the top body straight from the top and while holding the top body by hand to prevent it from coming off, attach the screws from the back.
-There are some combinations of top and bottom bodies that a little tight.
 
 ![Build a case 002](images/build-case002.jpg)
 
@@ -158,3 +130,61 @@ Attach cushion rubbers.
 Finally, attach the key cap to complete the process.
 
 ![Finished](images/finished.jpg)
+
+## how to fix the clearance between the E-White case and each part
+
+The following is a step-by-step explanation of how to fix with interference between the top body and bottom body, and between the top body and plate.
+Please note that it is necessary to remove about 0.1mm-0.2mm with a sandpaper. In the example shown here, we used a JIS standard #240. If you use a sandpaper with too rough a grit, it may damage the main body greatly, so it is safer to use a medium to fine grit file of #240-#400.
+
+The number of the sandpaper varies depending on the standard. The JIS standard #240-#400 is roughly the same as the following for other standards.
+- The United States CAMI: 240-320
+- The European FEPA: P220-P400
+
+The degree of shaving varies depending on the individual unit, so please check each time while working to avoid over-shaving.
+I apologize for any inconvenience this may cause.
+
+### When the top body and bottom body interfere with each other
+
+If you feel a little resistance when opening and closing the top and bottom bodies, there is no problem.
+However, if you feel it is too tight, first lightly scrape the following area on the bottom body.
+It depends on the individual, but please refer to the following pictures.
+
+![Annotation Bottom body 001](images/annotation-bottom-body001.png)
+
+![Annotation Bottom body 002](images/annotation-bottom-body002.png)
+
+![Fix Bottom body 001](images/fix-bottom-body001.jpg)
+
+![Fix Bottom body 002](images/fix-bottom-body002.jpg)
+
+If the bottom body does not solve the problem, lightly scrape the following areas on the top body.
+However, it is not recommended to shave this area as it is difficult to do so.
+
+![Annotation Top body 003](images/annotation-top-body003.png)
+
+![Annotation Top body 004](images/annotation-top-body004.png)
+
+
+### When the top body and plate interfere with each other
+
+First, please check how much interference there is.
+Due to the nature of the gasket mount, if it interferes to the extent that you feel resistance, it will affect the feel.
+
+![Fix Plate 001](images/fix-plate001.jpg)
+
+If you feel resistance, first lightly scrape the following places on the plate.
+It depends on the individual, but please refer to the following pictures.
+
+![Annotation Plate 001](images/annotation-plate001.png)
+
+![Annotation Plate 002](images/annotation-plate002.png)
+
+![Fix Plate 001](images/fix-plate002.jpg)
+
+If the problem is not solved by the plate side, lightly scrape the following areas on the top body.
+However, it is not recommended to shave this area as it is difficult to do so.
+
+![Annotation Top body 001](images/annotation-top-body001.png)
+
+![Annotation Top body 001](images/annotation-top-body002.png)
+
