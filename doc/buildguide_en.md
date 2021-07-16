@@ -15,7 +15,8 @@ Please remove the screws and check the inside.
 
 The inside of the case and other parts that are not visible from the front when assembled may have some scratches or may not be painted sufficiently.
 In most cases, this is difficult to prevent due to the manufacturing process, so we appreciate your understanding.
-Also, please refer to the following for the clearance between the E-White case and each part and how to fix with it.
+
+Also, there may be a separate clearance problem with the E-White case, so please refer to [the following](#the-clearance-between-the-e-white-case-and-each-part).
 
 ![Package Body 002](images/package-body002.jpg)
 
