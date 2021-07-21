@@ -135,7 +135,7 @@ Finally, attach the key cap to complete the process.
 ## how to fix the clearance between the E-White case and each part
 
 The following is a step-by-step explanation of how to fix with interference between the top body and bottom body, and between the top body and plate.
-Please note that it is necessary to remove about 0.1mm-0.2mm with a sandpaper. In the example shown here, we used a JIS standard #240. If you use a sandpaper with too rough a grit, it may damage the main body greatly, so it is safer to use a medium to fine grit file of #240-#400.
+Please note that it is necessary to remove about 0.1mm-0.2mm with a sandpaper. In the example shown here, we used a JIS standard #240. If you use a sandpaper with too rough a grit, it may damage the main body greatly, so it is safer to use a medium to fine grit sandpaper of #240-#400.
 
 The number of the sandpaper varies depending on the standard. The JIS standard #240-#400 is roughly the same as the following for other standards.
 - The United States CAMI: 240-320
