@@ -172,7 +172,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/5e7476a5-e9ef-4804-8739-4fc43551cead")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX2" (at 5.1 7.95 170) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7e8c90a4-a7aa-4a3d-a304-9a69d077cded)
@@ -216,7 +216,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/70c1c508-5600-455c-b31d-1ced6d657893")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX3" (at 5.1 7.95 170) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3f83a788-f9c8-401a-8bff-95e0fb09093a)
@@ -260,7 +260,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/5d74fa63-3900-45d7-8513-e9e2705b6add")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX4" (at 5.1 7.95 170) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5b07e573-bbdf-4fb1-9556-313f9c9c9bda)
@@ -304,7 +304,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/9e86a27a-d5a2-4d18-ade2-cfed74007917")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX5" (at 5.1 7.95 170) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 849015c6-247d-44cc-8b3b-2c9760016742)
@@ -348,7 +348,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/c98e7176-e8ba-48e2-b080-dccde56ee2fc")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX6" (at 5.1 7.95 170) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 05eec09e-b32d-4ebc-b8f9-1ff88e2560ca)
@@ -392,7 +392,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/cc1a0455-014b-4f3a-bd74-3dc994927179")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX7" (at 5.1 7.95 10) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0598acb6-8092-48ec-8da1-26139dbe9bde)
@@ -436,7 +436,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/5a6c88b7-c9d6-4833-b3aa-95022189b167")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX8" (at 5.1 7.95 10) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 08960ed7-c7c5-48bd-9ced-13f67db3561f)
@@ -480,7 +480,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/bf67cff0-42d3-4a16-adb1-45a1df402475")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX9" (at 5.1 7.95 10) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fb98c82c-277e-4f51-a014-8a14d47cf9d5)
@@ -524,7 +524,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/ad623e8e-8908-48a8-88d8-34c77481b699")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX10" (at 5.1 7.95 10) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c4a4b67c-c30a-41e8-9f33-59a42a29c16f)
@@ -568,7 +568,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/f0eb3d42-d6e4-4daf-82c6-a6742e1ec481")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX11" (at 5.1 7.95 10) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 783792f6-6474-43a9-b1d2-dddd09d864ca)
@@ -612,7 +612,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/e1e268b7-9556-482d-8cb2-bb8a4b13f525")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX12" (at 5.1 7.95 10) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a312896a-1652-4e2c-b724-7e94930702d0)
@@ -656,7 +656,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/f29ba621-6710-49f5-8d86-a92048f361f8")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX14" (at 5.1 7.95 170) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5ba60192-df4c-4f6e-bb65-09a1c008f8ce)
@@ -700,7 +700,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/5f92fa7b-f494-43a1-9d9f-8b3bb6405467")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX15" (at 5.1 7.95 170) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp aa75530d-4664-49ca-b8c7-4c5e6669090e)
@@ -744,7 +744,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/ace8ab7d-b5d7-4b8d-bb2f-244b863bbea1")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX16" (at 5.1 7.95 170) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 332fe972-c902-474a-b58e-f8ed4f609739)
@@ -788,7 +788,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/aa7e0b69-1985-4a4e-98c1-aa916b3c9be7")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX17" (at 5.1 7.95 170) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 493dd06f-4013-4173-88dd-a1fd36f11f25)
@@ -832,7 +832,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/ab17809a-ee63-4f2c-9d70-ebd5ac46d558")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX18" (at 5.1 7.95 170) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ac33092a-972b-4e13-a086-57e56da85542)
@@ -876,7 +876,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/a2c13ee9-8ef3-4531-b6cd-901f1bce3ba9")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX19" (at 5.1 7.95 10) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7e5783c0-3782-4e86-a55d-10260f1a8eec)
@@ -920,7 +920,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/8dbe126e-d497-4461-8593-186d6804f252")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX20" (at 5.1 7.95 10) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1e8d325f-0bf8-4438-bd2f-b1b34f304547)
@@ -964,7 +964,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/ca18a43a-be57-4131-9e4d-3176dce1755b")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX21" (at 5.1 7.95 10) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7ff47d0b-ab14-43c3-9c67-d4c827e729b6)
@@ -1008,7 +1008,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/cbd41de3-b8b3-46b2-a197-d2f8a3852363")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX22" (at 5.1 7.95 10) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5f8ec08a-aaac-4770-a4a2-1f44ae580fdc)
@@ -1052,7 +1052,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/d535252a-bcb2-4acc-aa3a-b2da160409ae")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX23" (at 5.1 7.95 10) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ab735da5-d7f3-40b9-9411-49cf6cc1a292)
@@ -1096,7 +1096,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/afe55bf8-62e8-48bf-bf99-5f10986dd62d")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX24" (at 5.1 7.95 10) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5561b9d7-12da-4485-b4ab-f394314095c6)
@@ -1140,7 +1140,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/3a61e7c5-f93b-43a4-82e2-bbd1e0cede2c")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX26" (at 5.1 7.95 170) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 27230afd-11a4-4b3a-aff8-c72f04ad5f8e)
@@ -1184,7 +1184,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/5b014a8a-0f8b-4471-8061-11baa6f9377a")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX28" (at 5.1 7.95 170) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c0d15f33-8f3b-4df1-b891-baea0303d184)
@@ -1228,7 +1228,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/69286dde-1b08-4d0e-a246-9be95e9ead4c")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX29" (at 5.1 7.95 170) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 94d688e7-e228-4bdf-8390-a31d1d42ec00)
@@ -1272,7 +1272,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/d48a5493-3e4e-4aa6-a4c8-b0cbb013cff0")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX30" (at 5.1 7.95 170) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4e39f947-556e-4b9e-9a25-cdae536d8a95)
@@ -1316,7 +1316,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/39bbbc9a-13a9-41ab-bd25-bb24a4860b9d")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX31" (at 5.1 7.95 10) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8178ed3a-89af-48f4-9ea1-b2325885250a)
@@ -1360,7 +1360,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/be59ec4d-6272-4129-9f65-7a78f040bd09")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX32" (at 5.1 7.95 10) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9ac04a2d-d7f3-4bc6-bcc9-70b907acb4e1)
@@ -1404,7 +1404,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/f3a8e5fe-72fa-46f4-b389-7ba19a9d1bfa")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX33" (at 5.1 7.95 10) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5a2960e1-c402-42ff-b8a0-5fba1bbce070)
@@ -1448,7 +1448,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/d989fddb-819e-49ce-b579-96433525635c")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX34" (at 5.1 7.95 10) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cababd63-add6-48a1-a03c-3fd397846771)
@@ -1492,7 +1492,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/bef65e6e-ede0-46cc-abc0-8dda7d9895c0")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX35" (at 5.1 7.95 10) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 02842e73-5bc4-488c-bb67-fff4cbf2a1de)
@@ -1536,7 +1536,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/c6cf978b-1904-4e4c-bfa5-260c231bf702")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX36" (at 5.1 7.95 10) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b4f5dcc7-7ddf-4d27-8d77-1def4f1c7d8b)
@@ -1580,7 +1580,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/fa7b979d-9351-4f79-8fdb-ee7c06ab9ad3")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX38" (at 5.1 7.95 170) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 12896603-ba40-4ccb-89bd-aa6d35348a9d)
@@ -1624,7 +1624,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/ceb77e8e-610b-4d30-8b4f-6faf3e6642cb")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX39" (at 5.1 7.95 170) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2c5a04ed-3aa5-4981-b752-2adbe8a7ac7b)
@@ -1668,7 +1668,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/0a74a5e8-fbd3-4eeb-9f5a-4a1ec9cde453")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX43" (at 5.1 7.95 40) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 37067dc4-5ccb-4de1-ab2f-0b9251e93eef)
@@ -1712,7 +1712,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/fa6587d3-96a0-439e-a16c-03916c0c7014")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX44" (at 5.1 7.95 25) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 553fa787-914f-4caa-b918-572af522cfc1)
@@ -1756,7 +1756,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/20ea0d7a-0b4a-40ef-bf2c-d6ec342a33c0")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX45" (at 5.1 7.95 10) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6cd21acd-06b0-4019-b74a-c0655586bcbe)
@@ -1800,7 +1800,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/08882e56-8852-4b17-b8f4-5b941421d340")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX46" (at 5.1 7.95 10) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 22463247-21e7-48ab-933e-720fbfb61755)
@@ -1844,7 +1844,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/87e00f9f-7c33-402e-967c-b74e2c66b17d")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX47" (at 5.1 7.95 10) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp eb300687-014f-4fc9-957d-11fffe6a30b0)
@@ -1888,7 +1888,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/0731f3ae-7931-4998-95c8-f4d19b29738e")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX48" (at 5.1 7.95 10) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8342d3e0-1f89-4636-ab1f-3af3333b4cda)
@@ -1932,7 +1932,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/681982a6-1829-4649-b24c-f4daa2f14fca")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX13" (at 5.1 7.95 170) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a3b60ec6-70d3-481d-9a87-e821cf949821)
@@ -1976,7 +1976,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/88fd0d72-3c04-444b-808d-bf012215df00")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX1" (at 5.1 7.95 170) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 64c9d558-e8f2-40db-aa06-9387a75d2bb6)
@@ -2020,7 +2020,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/4c959d58-b937-499b-8bb4-adf0c8a5a113")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX25" (at 5.1 7.95 170) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fe96f116-f65a-4e3a-8d0b-6b126c9b8912)
@@ -2064,7 +2064,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/56328401-d081-4a3c-beff-7748d607c757")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX37" (at 5.1 7.95 170) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bb8e4525-bcb6-4478-a255-7216f60264de)
@@ -2108,7 +2108,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/6e8424e0-d468-441d-8c16-88b17dc40752")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX40" (at 5.1 7.95 170) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2e6811d4-2d4b-470b-b331-3482e9a56b21)
@@ -2152,7 +2152,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/f4c5cfec-b7e0-4c65-a340-29fe00180a37")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX42" (at 5.1 7.95 140) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 41853e8f-c546-4b86-8be3-e65e1cbaea5a)
@@ -2196,7 +2196,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/828100d7-cdba-4766-8c74-61c82913a911")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX41" (at 5.1 7.95 155) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7350379e-f8ab-41e5-8f7d-13bf9e23639e)
@@ -2437,7 +2437,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/8c1bee87-b505-41d6-bd80-7252e49cc8ab")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "MX27" (at 5.1 7.95 170) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b94b42e3-fafe-4845-a24f-aaeb73fc08bd)
@@ -6189,7 +6189,7 @@
     (property "ki_description" "Atmel 6-pin ISP connector")
     (property "ki_keywords" "AVR ISP Connector")
     (path "/6b5635e7-5fcf-47f3-9ba2-4889ebab0035/00000000-0000-0000-0000-00005b8ae55f")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J1" (at 1.23 -7.38 180) (layer "B.SilkS")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp d0e735f3-314b-4a5c-8995-25544c85ccfc)

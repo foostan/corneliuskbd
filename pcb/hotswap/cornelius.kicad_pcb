@@ -4077,7 +4077,7 @@
     (property "ki_description" "Atmel 6-pin ISP connector")
     (property "ki_keywords" "AVR ISP Connector")
     (path "/3f59913e-69da-4ba6-9eb9-394ebb2edc66/00000000-0000-0000-0000-00005b8ae55f")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J1" (at 1.23 -7.38 180) (layer "B.SilkS")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp d0e735f3-314b-4a5c-8995-25544c85ccfc)
