@@ -87,12 +87,12 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -367,7 +367,7 @@
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
+      "endpoint_off_grid": "ignore",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
@@ -858,8 +858,12 @@
   },
   "sheets": [
     [
-      "1691bd26-0873-410a-a392-b57d352f5a62",
+      "13e40788-c997-49b6-a295-2e0f727db597",
       ""
+    ],
+    [
+      "6b5635e7-5fcf-47f3-9ba2-4889ebab0035",
+      "cornelius"
     ]
   ],
   "text_variables": {}
