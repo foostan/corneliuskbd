@@ -5,8 +5,8 @@
       (effects (font (size 0.5 0.5) (thickness 0.1) bold))
     (tstamp 0a9e7192-6667-4289-8263-f2652c7b8e01)
   )
-  (fp_text value "keyswitch_chock12_hotswap_1u" (at 0 -7.8) (layer "F.Fab") hide
-      (effects (font (size 0.6 0.6) (thickness 0.1) bold))
+  (fp_text value "keyswitch_chock12_hotswap_1u" (at 0 -7.8) (layer "B.Fab") hide
+      (effects (font (size 0.6 0.6) (thickness 0.1) bold) (justify mirror))
     (tstamp 7784b1de-84b6-45a0-807d-51a82d97720c)
   )
   (fp_poly
@@ -52,14 +52,25 @@
     )
 
     (stroke (width 0.1) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 2c6083e3-4cd3-45f3-b991-97a80b1974ae))
+<<<<<<< Updated upstream
   (fp_line (start -9.525 -9.525) (end -9.525 9.525)
+=======
+  (fp_line (start -9.525 -9.525) (end 9.525 -9.525)
+    (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp be6eff91-7653-4d31-b5e2-8527c9ad11ea))
+  (fp_line (start -9.525 9.525) (end -9.525 -9.525)
+    (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp c4493dca-f09c-43e5-860f-4925f2961562))
+  (fp_line (start 9.525 -9.525) (end 9.525 9.525)
+>>>>>>> Stashed changes
     (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp cab2a59a-143c-48e0-a6e3-0f63d7a5045a))
   (fp_line (start -9.525 9.525) (end 9.525 9.525)
     (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp a3fb8570-0862-4d47-9efa-ce7b322c2a99))
+<<<<<<< Updated upstream
   (fp_line (start 9.525 -9.525) (end -9.525 -9.525)
     (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp be6eff91-7653-4d31-b5e2-8527c9ad11ea))
   (fp_line (start 9.525 9.525) (end 9.525 -9.525)
     (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp c4493dca-f09c-43e5-860f-4925f2961562))
+=======
+>>>>>>> Stashed changes
   (fp_line (start -7 -7) (end -7 7)
     (stroke (width 0.1) (type solid)) (layer "B.CrtYd") (tstamp 8821669f-cd61-4318-964e-2bc724bc1009))
   (fp_line (start -7 7) (end 7 7)
@@ -76,7 +87,11 @@
     (stroke (width 0.1) (type default)) (layer "B.Fab") (tstamp 713b01fe-62ab-4157-b9cc-800c9bab7489))
   (fp_line (start 1.8 -3.2) (end 1.8 -6.3)
     (stroke (width 0.1) (type default)) (layer "B.Fab") (tstamp 2f332dd8-ae89-496e-8e07-2c776796b73e))
+<<<<<<< Updated upstream
   (pad "" thru_hole circle (at -5.55 -5) (size 1.5 1.5) (drill oval 1 0.5) (layers "*.Cu" "F.Mask") (tstamp 09206e17-94bd-48f2-b789-264b915d5a7e))
+=======
+  (pad "" thru_hole circle (at -5.55 -5) (size 1.5 1.5) (drill oval 1 0.3) (layers "*.Cu" "F.Mask") (tstamp 09206e17-94bd-48f2-b789-264b915d5a7e))
+>>>>>>> Stashed changes
   (pad "" np_thru_hole circle (at -5.5 0 270) (size 1.9 1.9) (drill 1.9) (layers "F&B.Cu" "*.Mask") (tstamp 45cbeebb-4a11-46b5-8154-858ab7b71d07))
   (pad "" np_thru_hole circle (at 0 0 270) (size 5 5) (drill 5) (layers "F&B.Cu" "*.Mask") (tstamp fc5a3f0a-46c3-488a-a492-ec02434d8be4))
   (pad "" np_thru_hole circle (at 0 5.9 270) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask") (tstamp ac0c3d4f-3db8-4ce9-aa30-dafe1b8a8a05))

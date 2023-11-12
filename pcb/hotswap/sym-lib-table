@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "kbd")(type "KiCad")(uri "/Users/foostan/go/src/github.com/foostan/corneliuskbd/pcb/kbd/kicad-symbols/kbd.kicad_sym")(options "")(descr ""))
+)
