@@ -1325,9 +1325,6 @@
   (junction (at 320.04 92.71) (diameter 0) (color 0 0 0 0)
     (uuid 0b0dfa5c-eb75-4ca4-bf2c-8acb8a9e27e0)
   )
-  (junction (at 63.5 148.59) (diameter 0) (color 0 0 0 0)
-    (uuid 12987901-67b2-45c9-88ef-e85d58d06648)
-  )
   (junction (at 274.32 59.69) (diameter 0) (color 0 0 0 0)
     (uuid 1460f210-8172-4186-a872-be7c69878155)
   )
@@ -1447,6 +1444,9 @@
   )
   (junction (at 299.72 54.61) (diameter 0) (color 0 0 0 0)
     (uuid 77aa908f-cce4-4089-95b7-36eafd917701)
+  )
+  (junction (at 64.77 148.59) (diameter 0) (color 0 0 0 0)
+    (uuid 787f3317-470e-4f45-8c67-0e612e242311)
   )
   (junction (at 223.52 87.63) (diameter 0) (color 0 0 0 0)
     (uuid 7b1b078d-eac2-412f-9b29-679f913dd857)
@@ -1804,10 +1804,6 @@
     (stroke (width 0) (type default))
     (uuid 46b692be-e934-426c-b708-cd6b62000ae6)
   )
-  (wire (pts (xy 52.07 148.59) (xy 63.5 148.59))
-    (stroke (width 0) (type default))
-    (uuid 480ba941-54e0-4869-8a46-528a4ad287cd)
-  )
   (wire (pts (xy 62.23 163.83) (xy 67.31 163.83))
     (stroke (width 0) (type default))
     (uuid 48c3e8be-69ba-4055-ba80-922d68f11d56)
@@ -2155,7 +2151,7 @@
     (stroke (width 0) (type default))
     (uuid e0c6083a-339e-47d6-a30d-0526a96188a0)
   )
-  (wire (pts (xy 63.5 148.59) (xy 70.485 148.59))
+  (wire (pts (xy 52.07 148.59) (xy 64.77 148.59))
     (stroke (width 0) (type default))
     (uuid e335fd3b-b57f-47e2-bc37-9fcd3e230973)
   )
@@ -2166,6 +2162,10 @@
   (wire (pts (xy 299.72 54.61) (xy 299.72 71.12))
     (stroke (width 0) (type default))
     (uuid e7910500-7269-4276-acd5-9c4c02543dd6)
+  )
+  (wire (pts (xy 64.77 148.59) (xy 70.485 148.59))
+    (stroke (width 0) (type default))
+    (uuid e7a1e300-a1a5-4a42-9253-49c9f892a755)
   )
   (wire (pts (xy 62.23 67.31) (xy 73.66 67.31))
     (stroke (width 0) (type default))
@@ -4152,6 +4152,41 @@
     )
   )
 
+  (symbol (lib_id "power:PWR_FLAG") (at 219.075 144.78 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 04b96330-478b-4cfa-943c-eea2dc4d2541)
+    (property "Reference" "#FLG02" (at 219.075 146.685 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 219.075 149.1742 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 219.075 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 219.075 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 53601484-0dbc-4b8d-9474-cc79dcb3b2ca))
+    (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "#FLG02") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19/3f59913e-69da-4ba6-9eb9-394ebb2edc66"
+          (reference "#FLG03") (unit 1)
+        )
+      )
+      (project "cornelius"
+        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
+          (reference "#FLG02") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Switch:SW_Push") (at 340.36 104.14 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0731f3ae-7931-4998-95c8-f4d19b29738e)
@@ -4547,41 +4582,6 @@
     )
   )
 
-  (symbol (lib_id "power:VBUS") (at 220.345 144.78 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 21884e15-71e7-4025-9706-2adfd615ec93)
-    (property "Reference" "#PWR022" (at 220.345 148.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VBUS" (at 220.726 140.3858 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 220.345 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 220.345 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 890330ce-4a17-4fee-9b64-fb1d74c03476))
-    (instances
-      (project "cornelius"
-        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
-          (reference "#PWR022") (unit 1)
-        )
-      )
-      (project "cornelius"
-        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19/3f59913e-69da-4ba6-9eb9-394ebb2edc66"
-          (reference "#PWR022") (unit 1)
-        )
-      )
-      (project "cornelius"
-        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
-          (reference "#PWR022") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:D_Small") (at 243.84 90.17 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 24f196f7-8f6c-405e-9afa-3bc394d0d081)
@@ -4613,41 +4613,6 @@
       (project "cornelius"
         (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
           (reference "D30") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VBUS") (at 63.5 148.59 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 251307bb-6032-45e0-9998-a6b68e68fdf0)
-    (property "Reference" "#PWR019" (at 63.5 152.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VBUS" (at 63.5 143.51 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 63.5 148.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 63.5 148.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1fe2fbbb-a2dd-4bb1-be5c-2e1d02228c08))
-    (instances
-      (project "cornelius"
-        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
-          (reference "#PWR019") (unit 1)
-        )
-      )
-      (project "cornelius"
-        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19/3f59913e-69da-4ba6-9eb9-394ebb2edc66"
-          (reference "#PWR019") (unit 1)
-        )
-      )
-      (project "cornelius"
-        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
-          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -4972,41 +4937,6 @@
       (project "cornelius"
         (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
           (reference "F1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:PWR_FLAG") (at 220.345 144.78 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 3840a6bd-ee23-4c65-91a2-0783d01576a4)
-    (property "Reference" "#FLG03" (at 220.345 146.685 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PWR_FLAG" (at 220.345 149.1742 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 220.345 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 220.345 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 76ce8b31-e324-43f9-9376-d3419afae7b8))
-    (instances
-      (project "cornelius"
-        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
-          (reference "#FLG03") (unit 1)
-        )
-      )
-      (project "cornelius"
-        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19/3f59913e-69da-4ba6-9eb9-394ebb2edc66"
-          (reference "#FLG03") (unit 1)
-        )
-      )
-      (project "cornelius"
-        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
-          (reference "#FLG03") (unit 1)
         )
       )
     )
@@ -5876,6 +5806,31 @@
     )
   )
 
+  (symbol (lib_id "power:VBUS") (at 64.77 148.59 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 844d2d46-575a-4019-8b48-4a171cb4670c)
+    (property "Reference" "#PWR013" (at 64.77 152.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VBUS" (at 64.77 143.51 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 64.77 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 64.77 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 356dcc72-4741-4be1-a1e6-62266362468c))
+    (instances
+      (project "cornelius"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19/3f59913e-69da-4ba6-9eb9-394ebb2edc66"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:D_Small") (at 304.8 90.17 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 852bce3b-2800-4336-a72a-c91f692087d4)
@@ -6128,6 +6083,31 @@
     )
   )
 
+  (symbol (lib_id "power:VBUS") (at 219.075 144.78 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 98a745d9-cd6b-4c1b-8d7d-db2658e843b4)
+    (property "Reference" "#PWR05" (at 219.075 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VBUS" (at 219.075 139.7 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 219.075 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 219.075 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8e05d3f7-22bf-4bdb-bc03-baa5a81a0ee5))
+    (instances
+      (project "cornelius"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19/3f59913e-69da-4ba6-9eb9-394ebb2edc66"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Switch:SW_Push") (at 233.68 54.61 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9e86a27a-d5a2-4d18-ade2-cfed74007917)
@@ -6267,6 +6247,31 @@
       (project "cornelius"
         (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
           (reference "MX18") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:VBUS") (at 111.76 158.75 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ac683180-df65-49a3-8da8-c2602bcee800)
+    (property "Reference" "#PWR01" (at 111.76 162.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VBUS" (at 111.76 153.67 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 111.76 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 111.76 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 83c9d0a0-b25f-4f6d-9843-a2e3ff546c52))
+    (instances
+      (project "cornelius"
+        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19/3f59913e-69da-4ba6-9eb9-394ebb2edc66"
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -7397,7 +7402,7 @@
       )
       (project "cornelius"
         (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19/3f59913e-69da-4ba6-9eb9-394ebb2edc66"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
       (project "cornelius"
@@ -7583,41 +7588,6 @@
       (project "cornelius"
         (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
           (reference "D22") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VBUS") (at 111.76 158.75 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f9bcc86a-e651-4118-a576-eaa10e0d6b2d)
-    (property "Reference" "#PWR019" (at 111.76 162.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VBUS" (at 111.76 153.67 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 111.76 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 111.76 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 146ad867-c8bc-4d9f-8d04-733671712d25))
-    (instances
-      (project "cornelius"
-        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
-          (reference "#PWR019") (unit 1)
-        )
-      )
-      (project "cornelius"
-        (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19/3f59913e-69da-4ba6-9eb9-394ebb2edc66"
-          (reference "#PWR019") (unit 1)
-        )
-      )
-      (project "cornelius"
-        (path "/2ec4f4fa-8c08-458a-8dcd-8bbe89e58c6a"
-          (reference "#PWR013") (unit 1)
         )
       )
     )
