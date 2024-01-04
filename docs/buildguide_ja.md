@@ -61,6 +61,9 @@ E-Whiteについて、GBの製造段階で品質向上のためコーティン�
 組み立てを始める前にPCBが正常に動作することをご確認してください。
 
 既にVIA対応のファームウェアが書き込まれた状態なので、動作確認には [VIA](https://caniusevia.com/) もしくは [Remap](https://remap-keys.app/) を利用することをおすすめします。
+なお最新のファームウェアを利用する場合は [こちら](https://github.com/foostan/crkbd/blob/main/doc/firmware_jp.md) を参考にしてください。
+VIA用のファームウェアはこちらは下記よりダウンロードできます。
+[foostan_cornelius_via.hex](https://raw.githubusercontent.com/foostan/qmk_firmware-hex/main/.build/foostan_cornelius_via.hex)
 
 __VIAのTest Matrixによる確認__
 

@@ -60,6 +60,10 @@ Before you start assembling, please make sure that the PCB is working properly.
 
 We recommend you to use [VIA](https://caniusevia.com/) or [Remap](https://remap-keys.app/) to check the operation, since VIA-compatible firmware has already been written.
 
+BTW, when you need to use the newest firmware then you should confirm [here](https://github.com/foostan/crkbd/blob/main/doc/firmware_en.md) as a reference to flash.
+Download the firmware of VIA from the following link.
+[foostan_cornelius_via.hex](https://raw.githubusercontent.com/foostan/qmk_firmware-hex/main/.build/foostan_cornelius_via.hex)
+
 __Verification with VIA's Test Matrix__
 
 ![Test Matrix by VIA](images/test_matrix_via.png)
