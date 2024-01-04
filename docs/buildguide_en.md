@@ -62,6 +62,7 @@ We recommend you to use [VIA](https://caniusevia.com/) or [Remap](https://remap-
 
 BTW, when you need to use the newest firmware then you should confirm [here](https://github.com/foostan/crkbd/blob/main/doc/firmware_en.md) as a reference to flash.
 Download the firmware of VIA from the following link.
+
 [foostan_cornelius_via.hex](https://raw.githubusercontent.com/foostan/qmk_firmware-hex/main/.build/foostan_cornelius_via.hex)
 
 __Verification with VIA's Test Matrix__
