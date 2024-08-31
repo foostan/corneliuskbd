@@ -5824,6 +5824,11 @@
     (pin "1" (uuid 356dcc72-4741-4be1-a1e6-62266362468c))
     (instances
       (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+      (project "cornelius"
         (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19/3f59913e-69da-4ba6-9eb9-394ebb2edc66"
           (reference "#PWR013") (unit 1)
         )
@@ -6101,6 +6106,11 @@
     (pin "1" (uuid 8e05d3f7-22bf-4bdb-bc03-baa5a81a0ee5))
     (instances
       (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "cornelius"
         (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19/3f59913e-69da-4ba6-9eb9-394ebb2edc66"
           (reference "#PWR05") (unit 1)
         )
@@ -6269,6 +6279,11 @@
     )
     (pin "1" (uuid 83c9d0a0-b25f-4f6d-9843-a2e3ff546c52))
     (instances
+      (project "cornelius"
+        (path "/13e40788-c997-49b6-a295-2e0f727db597/6b5635e7-5fcf-47f3-9ba2-4889ebab0035"
+          (reference "#PWR01") (unit 1)
+        )
+      )
       (project "cornelius"
         (path "/195be91b-8e8a-44dc-96de-003bfb3dcf19/3f59913e-69da-4ba6-9eb9-394ebb2edc66"
           (reference "#PWR01") (unit 1)
@@ -7698,9 +7713,5 @@
         )
       )
     )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
   )
 )
