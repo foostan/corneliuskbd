@@ -12,4 +12,4 @@ This is the public repository for Cornelius keyboard series.
 ![cornelius-details](https://user-images.githubusercontent.com/736191/126040942-d39010e7-3761-4fe7-a791-0de49295c53b.png)
 
 ## v2 Cornelius Low-profile
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LSguWsNrmjk?si=d1HZ80cXTy3wnEmt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![Pastry Keyboard Cornelius Low-profile](https://github.com/user-attachments/assets/d2d5fc65-e8b5-479f-a0b1-20e6678448e6)](https://youtu.be/LSguWsNrmjk?si=_kJ-U84TBwFJ3C_R)
