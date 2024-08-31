@@ -1,0 +1,35 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 93a850a1-00e4-4fde-821e-025bceb24564)
+
+  (paper "A3")
+
+  (title_block
+    (date "2023-11-23")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 60.325 38.735) (size 198.12 134.62) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 706745bd-87d5-42c8-9014-6242a92760d3)
+    (property "Sheetname" "cornelius" (at 60.325 38.0234 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "../common/cornelius.kicad_sch" (at 60.325 173.9396 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "cornelius-chocolate"
+        (path "/93a850a1-00e4-4fde-821e-025bceb24564" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

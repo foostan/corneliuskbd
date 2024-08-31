@@ -15,7 +15,7 @@
     (property "Sheetname" "cornelius" (at 75.565 45.6434 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "../cornelius.kicad_sch" (at 75.565 92.0246 0)
+    (property "Sheetfile" "../common/cornelius.kicad_sch" (at 75.565 92.0246 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
